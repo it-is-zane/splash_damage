@@ -9,18 +9,23 @@ Introduction
 - Development Software
 - Genre
 - Target Audience
+
 Concept
 - Gameplay Overview
 - Theme Interpretation (Shadows and Alchemy)
 - Primary Mechanics
 - Secondary Mechanics
+
 Art
 - Theme Interpretation
 - Design
+
 Audio
 - Music
 - Sound Effects
+
 Game Exerience
 - UI
 - Controls
+
 Development Timeline
