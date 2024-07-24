@@ -3,7 +3,7 @@ By Anthony Filippello, Christopher Hankland, Jonathan Miller, Zane Gant, ...
 
 Introduction
 - Game Summary
-Craft Potions and Chuck them at your enemies.
+Craft Potions and chuck them at your enemies.
 - Inspiration
 Jacksmith X Angry Birds
 - Player Experience
@@ -11,7 +11,7 @@ The Player should feel clever for the economical use of their resources, and for
 - Platform
 Browser First
 - Development Software
-we are running Godot with Github for sc.
+We are running Godot with Github for sc.
 - Genre
 Puzzle-Fantasy
 - Target Audience
