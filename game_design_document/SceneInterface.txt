@@ -1,0 +1,7 @@
+Interface between Scene A and B
+
+Just an object that persists between scenes containing this data:
+
+integer: level number
+List of ints: potion stack
+List of ints: ingredients, value is number, index is type
