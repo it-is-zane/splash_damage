@@ -1,0 +1,193 @@
+[gd_scene load_steps=3 format=3 uid="uid://yqialrth0gxg"]
+
+[ext_resource type="Texture2D" uid="uid://c6ormnen1fb3c" path="res://game_design_document/Mockup Scene A.png" id="1_creej"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ioqkn"]
+atlas = ExtResource("1_creej")
+region = Rect2(316.681, 78.7167, 184.477, 326.494)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Ingredients" type="MarginContainer" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="HBoxContainer/Ingredients"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/Ingredients"]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/Ingredients/MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HBoxContainer/Ingredients/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Ingredients"
+horizontal_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="HBoxContainer/Ingredients/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/Ingredients/MarginContainer/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="HBoxContainer/Ingredients/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Magic Uranium"
+
+[node name="Button2" type="Button" parent="HBoxContainer/Ingredients/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Cursed Apples"
+
+[node name="Button3" type="Button" parent="HBoxContainer/Ingredients/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Cool Rocks"
+
+[node name="Button4" type="Button" parent="HBoxContainer/Ingredients/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "Philosophers Stone"
+
+[node name="PotionMixer" type="MarginContainer" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer/PotionMixer"]
+layout_mode = 2
+texture = SubResource("AtlasTexture_ioqkn")
+
+[node name="PotionsAndLevels" type="MarginContainer" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="HBoxContainer/PotionsAndLevels"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/PotionsAndLevels"]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/PotionsAndLevels/MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HBoxContainer/PotionsAndLevels/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "picture of
+next level"
+horizontal_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="HBoxContainer/PotionsAndLevels/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/PotionsAndLevels/MarginContainer/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="HBoxContainer/PotionsAndLevels/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "random standin
+button that
+represents a potion"
+
+[node name="Button2" type="Button" parent="HBoxContainer/PotionsAndLevels/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "random standin
+button that
+represents a potion"
+
+[node name="Button3" type="Button" parent="HBoxContainer/PotionsAndLevels/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "random standin
+button that
+represents a potion"
+
+[node name="Button4" type="Button" parent="HBoxContainer/PotionsAndLevels/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "random standin
+button that
+represents a potion"
+
+[node name="Button5" type="Button" parent="HBoxContainer/PotionsAndLevels/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "random standin
+button that
+represents a potion"
+
+[node name="Button6" type="Button" parent="HBoxContainer/PotionsAndLevels/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "random standin
+button that
+represents a potion"
+
+[node name="Button7" type="Button" parent="HBoxContainer/PotionsAndLevels/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "random standin
+button that
+represents a potion"
+
+[node name="Button8" type="Button" parent="HBoxContainer/PotionsAndLevels/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "random standin
+button that
+represents a potion"
+
+[node name="Button9" type="Button" parent="HBoxContainer/PotionsAndLevels/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "random standin
+button that
+represents a potion"
+
+[node name="Button10" type="Button" parent="HBoxContainer/PotionsAndLevels/MarginContainer/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+text = "random standin
+button that
+represents a potion"
+
+[node name="ProgressBar" type="ProgressBar" parent="HBoxContainer/PotionsAndLevels/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+value = 42.0
+
+[node name="TitleBar" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -57.5
+offset_right = 57.5
+offset_bottom = 39.0
+grow_horizontal = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="Label" type="Label" parent="TitleBar"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Potion Mixer"
